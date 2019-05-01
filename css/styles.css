@@ -1,0 +1,109 @@
+body,
+h1 {
+    font-family: "Raleway"sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.BGimage {
+    background-image: url("../images/way.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-white {
+    color: white;
+}
+
+.border-whitesmoke {
+    border-color: whitesmoke;
+}
+
+.animate-opacity {
+    animation: opac 0.8s;
+}
+
+.logoText {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.logoImage {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 7.5%;
+    width: auto;
+}
+
+.waitText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.madeBy {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* More in https://www.w3schools.com/css/css3_animations.asp */
+.animate-top-down {
+    position: relative;
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+/* Standard syntax */
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: -20px;
+    }
+}
